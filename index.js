@@ -48,7 +48,7 @@ xhrPokemonList.onload = function () {
                     pokemonImageElement.classList.add('card-img-top');
 
                     if (Object.keys(pokemonDetail).includes('sprites')) {
-                        pokemonImageElement.src = pokemonDetail.sprites.front_default;
+                        pokemonImageElement.src = pokemonDetail.sprites.back_default;
 
                     }
                     pokemonCardElement.appendChild(pokemonImageElement);
